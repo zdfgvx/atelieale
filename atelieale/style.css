@@ -1,9 +1,54 @@
 body{
-    background: rgba(75, 141, 89, 0.925);
-    font-family: 'Poppins', sans-serif;
+    background: rgba(247, 247, 247, 0.925);
+    font-family: 'Montserrat', sans-serif;
+}
+/* --------------------------cabecalho-----------------------------*/
+header{
+    height: 200px;
+    background-color: rgb(118, 241, 135);
+    margin-bottom: 50px;
 }
 
 .cabecalho{
-    height: 200px;
-    background-color: aquamarine;
+    position: absolute;
+    top: 170px;
+    left: 45%;
+    ;
+}
+#pesquisa{
+    display: inline-block;
+    border: 2px black solid;
+    border-radius: 20px;
+    width: 200px;
+    height: 20px;
+    background-color: rgb(221, 221, 221);
+}
+
+/*-------------------------------produtos-------------------------------*/
+.Image{
+    width: 50%;
+}
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0 ;   
+}
+.produtos li{
+    display: inline-block;
+    text-align: center;
+    width: 30%;
+    vertical-align: top;
+    margin: 0 1.25%;
+    padding: 30px 10px;
+    box-sizing: border-box;
+    background-color: rgb(189, 189, 189);
+    border-radius: 50px;
+    box-shadow: 0 0 3px black;
+}
+.produtos h2{
+font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.produtos li:hover{
+    box-shadow: 2px 2px 4px black;
 }
