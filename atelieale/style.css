@@ -1,11 +1,12 @@
 body {
+    
     background: rgba(247, 247, 247, 0.925);
     font-family: 'Open Sans', sans-serif;
 }
 
 /* --------------------------cabecalho-----------------------------*/
 header {
-    height: 200px;
+    height: 70px;
     background: linear-gradient(85deg, rgb(0, 216, 0), rgb(15, 224, 109), rgb(77, 235, 91));
     margin-bottom: 50px;
 }
@@ -38,7 +39,7 @@ header {
 
 #pesquisa {
     position: absolute;
-    top: 150px;
+    top: 10px;
     left: 35%;
 }
 
@@ -54,31 +55,34 @@ header {
 
 /*-------------------------------produtos-------------------------------*/
 .Image {
-    width: 50%;
+    width: 100%;
+    border-radius: 5%;
 }
 
 .produtos {
-    width: 940px;
-    margin: 0 auto;
-    padding-top: 50px;
-    padding-bottom: 100px;
+    margin:  0 auto;
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+    width: 70%;
 }
 
 .produtos li {
-    display: inline-block;
     text-align: center;
-    width: 30%;
-    vertical-align: top;
-    margin: 0 1.25%;
-    padding: 30px 10px;
     box-sizing: border-box;
+    height: 250px;
+    width: 150px;
+    vertical-align: top;
+    margin: 10px 1.25%;
     background-color: rgb(245, 245, 245);
-    border-radius: 50px;
+    border-radius: 5%;
     box-shadow: 3px 3px 4px rgb(63, 62, 62);
+    border: black solid 2px;
     transition: 2s linear;
 }
 
 .produtos h2 {
+    font-weight: bold;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -88,18 +92,22 @@ header {
 }
 
 .produtos li:active {
-    transform: scale(1.25%);
+    transform: scale();
     border: solid 2px rgb(10, 5, 5);
 
 }
+.descricao{
+    padding: 20px 0 0 0;
+}
+
 
 /* ----------------------------------rodape---------------------*/
 footer {
     position: absolute;
-    padding: 200px;
-    background: black;
-    height: 300px;
+    top: 79.5%;
     width: 100%;
+    height: 200px;
+    background-color: #0c192c;
 }
 
 /*--------------------------------login ---------------------------*/
