@@ -1,13 +1,11 @@
 body {
-    
-    background: rgba(247, 247, 247, 0.925);
-    font-family: 'Open Sans', sans-serif;
+    background: #fff9ed;
 }
 
 /* --------------------------cabecalho-----------------------------*/
 header {
-    height: 70px;
-    background: linear-gradient(85deg, rgb(0, 216, 0), rgb(15, 224, 109), rgb(77, 235, 91));
+    height: 50px;
+    background: linear-gradient(85deg, #fda33a,#ed6a09);
     margin-bottom: 50px;
 }
 
@@ -45,15 +43,16 @@ header {
 
 .login {
     position: absolute;
-    top: 50px;
+    top: 20px;
     right: 30px;
     text-decoration: none;
-    color: black;
+    color: #fff9ed;
+    font-family: 'Raleway', sans-serif;
 
 }
 
 
-/*-------------------------------produtos-------------------------------*/
+/*-------------------------------produtos do inicio-------------------------------*/
 .Image {
     width: 100%;
     border-radius: 5%;
@@ -77,27 +76,22 @@ header {
     background-color: rgb(245, 245, 245);
     border-radius: 5%;
     box-shadow: 3px 3px 4px rgb(63, 62, 62);
-    border: black solid 2px;
-    transition: 2s linear;
+    transition: 100ms linear;
+    
 }
 
-.produtos h2 {
-    font-weight: bold;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-}
 
 .produtos li:hover {
     box-shadow: 2px 2px 4px rgb(0, 0, 0);
-    border: solid 2px brown;
+    transform: scale(1.05);
 }
 
 .produtos li:active {
-    transform: scale();
-    border: solid 2px rgb(10, 5, 5);
-
+    transform: scale(1);
 }
-.descricao{
+.descricao h2{
     padding: 20px 0 0 0;
+    font-family: 'Noto Sans Kawi', sans-serif;
 }
 
 
@@ -107,7 +101,7 @@ footer {
     top: 79.5%;
     width: 100%;
     height: 200px;
-    background-color: #0c192c;
+    background-color: #9c3f10;
 }
 
 /*--------------------------------login ---------------------------*/
@@ -197,4 +191,9 @@ form {
     font-weight: 800;
     color: #264143;
     padding: 5px;
+}
+/*---------------Especificação dos produtos---------------*/
+.imagenProduto{
+    width: 27%;
+    margin: 0 0 0 250px;
 }
