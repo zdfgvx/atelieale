@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=S, initial-scale=1.0">
+    <title>produto</title>
+    <link rel="shortcut icon" href="imagens/logo.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="shortcut icon" href="imagens/logo.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+</head>
+
+<body>
+    <header style="margin-bottom: 100px;" 50px;>
+        <div class="cabecalho">
+            <img src="imagens/logo.png" class="logo">
+            <div id="usuario">
+                <img src="imagens/user-circle-svgrepo-com.png" alt="" width="40px" >
+                <p class="nomeUsuario">usuario</p>
+            </div>
+            <form action="">
+                <input type="text" id="pesquisa" class="inputPesquisa" placeholder="pesquisa" required="">
+            </form>
+            <div class="login">
+                <a href="carrinho.html"><svg xmlns="http://www.w3.org/2000/svg" height="20px" viewBox="0 0 576 512"
+                        fill="white" class="cart">
+                        <path
+                            d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z">
+                        </path>
+                    </svg></a>
+                <a href="login.html">login</a>
+                <a href="index.html">Inicio</a>
+                <a href="credidos.html">Creditos</a>
+            </div>
+        </div>
+    </header>
+    <main>
+
+        <!--------------------botões de compra e de adicionar ao carrinho--------------------->
+        <div class="compras">
+            <button class="btnComprar" onclick="finalizar()">comprar</button>
+            <button class="btnAdicionarCarrinho" id="botaoCarrinho" onclick="pegaValorProduto()">Adicionar ao carrinho</button>
+        </div>
+        <!-----------Descrição do Produto------------->
+        <div class="conteiberDescricao">
+            <div class="imagemProdutoMais">
+                <ul class="listaImagens">
+                    <li><img src="imagens/WhatsApp Image 2023-10-05 at 10.40.47 (1).jpeg" class="maisImagem"></li>
+                    <li><img src="imagens/WhatsApp Image 2023-10-05 at 10.40.47 (1).jpeg" class="maisImagem"></li>
+                    <li><img src="imagens/WhatsApp Image 2023-10-05 at 10.40.47 (1).jpeg" class="maisImagem"></li>
+                    <li><img src="imagens/WhatsApp Image 2023-10-05 at 10.40.47 (1).jpeg" class="maisImagem"></li>
+                </ul>               
+                <img src="imagens/WhatsApp Image 2023-10-05 at 10.40.47 (1).jpeg" class="imagenProduto">
+            </div>
+            <div class="containerProduto">
+                <div class="formArea">
+                    <p class="title">Caveiro de Filtro dos Sonhos</p>
+                    <form action="">
+                        <div class="form_group">
+                            <label class="sub_title" for="name">Quantidade</label>
+                            <input id="quantidade" placeholder="Quantidade" class="form_style" type="number">
+                        </div>
+                        <div class="form_group">
+                            <label class="sub_title" for="email">Cor</label>
+                            <select class="form_style" id="cor">
+                                <option value="">Azul</option>
+                                <option value="">Vermelho</option>
+                                <option value="">Rocho</option>
+                            </select>
+                        </div>
+                        <div class="form_group">
+                            <label class="sub_title" for="password">Bijuteria</label>
+                            <select class="form_style" id="pedrinha">
+                                <option value="">Pedra Azul</option>
+                                <option value="">Conchinha</option>
+                                <option value="">Pedra Preta</option>
+                            </select>
+                        </div>
+                    </form>
+                    <h2>Valor: R$20,00</h2>
+                </div>
+            </div>
+        </div>
+
+    
+    </main>
+    <footer>
+        <h2>André Pereira lima e Felipe Pereira Lima &copy;</h2>
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="Pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="imagens/logo.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>login</title>
+</head>
+
+<body class="fundoDoLogin">
+
+    <a href="index.html"><img
+            src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABgAAAAYCAYAAADgdz34AAAACXBIWXMAAAsTAAALEwEAmpwYAAAAyklEQVR4nNXVIU4DQBAF0JcGUVksAoegAgmGI1TVkyDqwFWXO4DjDGDoDeAKvQACRWhS0dRAaNNkNmlQiJkE/gHeT3Z3dvjj6eGyCu/iGWuMs/EOHgN/w2F2wV3gHzjOxm8CX+E8Gx8F/oVhNj7AZxRcZeNnWAY+ycb7mAd+n40f4DXwJ+xl4vuYBf4Sg+VfFfw8omn2EbUc4b3qkltOd57pdpJLMtgZtOuqkgt8V30VLZPKz67lNkoWOFGQDh4qF47qldlSuvR/lQ2TBTV9NsnUKAAAAABJRU5ErkJggg=="
+            class="setaVoltar"></a>
+
+    <main>
+        <div class="container">
+            <div class="form_area">
+                <p class="title">inscrever-se</p>
+                <form action="">
+                    <div class="form_group">
+                        <label class="sub_title" for="name">Nome</label>
+                        <input id="nome" placeholder="Coloque seu nome" class="form_style" type="text">
+                    </div>
+                    <div class="form_group">
+                        <label class="sub_title" for="email">Email</label>
+                        <input placeholder="Coloque seu email" id="email" class="form_style" type="email">
+                    </div>
+                    <div class="form_group">
+                        <label class="sub_title" for="password">Senha</label>
+                        <input placeholder="coloque sua senha" id="password" class="form_style" type="password">
+                    </div>
+                    <div>
+                        <button class="btn" onclick="pegaValor(event)">Inscrever-se</button>
+                        <p>Tem uma conta?<a href="" class="link">Entre aqui!</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+
+</html>

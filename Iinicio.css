@@ -1,0 +1,19 @@
+body{
+    background: rgba(243, 243, 243, 0.925);
+    font-family: 'Poppins', sans-serif;
+}
+
+.caixa{
+    background-color: rgb(12, 180, 116);
+    height: 200px;
+}
+.pesquisa{
+    position: absolute;
+    top: 170px;
+    left: 43%;
+    border-radius: 10px;
+    height: 20px;
+    border: none;
+    width: 300px;
+}
+
